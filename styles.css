@@ -18,6 +18,9 @@ body {
 	background-image: linear-gradient(120deg, #424242, #111111);
 	font-family: Tahoma, sans-serif;
 	overflow-x: hidden;
+  	transform: scale(0.75); /* Scales the entire body to 75% */
+ 	transform-origin: top left; /* Ensures scaling starts from the top-left corner */
+  	width: 133.33%; /* Adjust width to fill the viewport after scaling (1 / 0.75 ≈ 1.3333) */
 }
 
 .slider {
